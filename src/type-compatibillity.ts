@@ -10,9 +10,9 @@ fooCompatible = barCompatible;
 console.log(typeof fooCompatible);
 
 let fooIncompatible: string;
-let barIncompaatible: number = 1;
+let barIncompatible: number = 1;
 
-// fooIncompatible = barIncompaatible
+// fooIncompatible = barIncompatible
 
 let fooString: string;
 let barString: string = "string";
