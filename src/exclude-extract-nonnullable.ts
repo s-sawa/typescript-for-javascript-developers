@@ -21,3 +21,5 @@ type FunctionTypeExtractingFunction = Extract<SomeTypes, Function>;
 
 type NullableTypes = string | number | null | undefined;
 type NonNullableTypes = NonNullable<NullableTypes>;
+
+// いずれも、既存の方を再利用して新たな方をスピーディーに用意することができる！！！
